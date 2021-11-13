@@ -9,11 +9,9 @@ int main (){
     printf("Enter n: ");
     scanf("%d", &n);
 
-    if(32<n && n<126){
-        printf("%c\n",n);
-    } else{
-        printf("Enter number between 32 and 126");
-    };
+    printf ("%c ", n-1);
+    printf ("%c ", n);
+    printf ("%c", n+1);
 
 
     return 0;
