@@ -6,10 +6,10 @@
      int N;
      
      printf("Enter your character: ");
-     scanf("%c", belgi);
+     scanf("%c", &belgi);
 
      printf("Enter N: ");
-     scanf("%d", N);
+     scanf("%d", &N);
 
      for (int i=0; i>=N; i++){
          printf("%c", belgi);
