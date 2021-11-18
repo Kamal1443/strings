@@ -1,13 +1,12 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #define MAX_SIZE 100
 
 int main(){
 
-    int raqamlar, i;  
+    int Kichik_harflar, i;
     char satr[MAX_SIZE];
-    raqamlar = i = 0;
+    Kichik_harflar = i = 0;
 
     printf("Satrni kiriting: ");
     gets(satr);
@@ -15,16 +14,16 @@ int main(){
     while(satr[i]!='\0')
     {
         
-        if(satr[i]>='0' && satr[i]<='9')
+        if(satr[i]>='a' && satr[i]<='z')
         {
-            raqamlar++;
+            Kichik_harflar++;
         }
 
         i++;
 
     };
 
-    printf("Raqamlar soni %dta", raqamlar);
+    printf("Kichik harflar soni %dta", Kichik_harflar);
 
     return 0;
 }

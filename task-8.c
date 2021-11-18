@@ -1,19 +1,26 @@
-#include <stdlib.h>
 #include <stdio.h>
-
- int main(){
-     char belgi;
-     int N;
-     
-     printf("Enter your character: ");
-     scanf("%c", &belgi);
-
-     printf("Enter N: ");
-     scanf("%d", &N);
-
-     for (int i=0; i>=N; i++){
-         printf("%c", belgi);
-     }
+#include <string.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <time.h>
+int main()
+{
+    int N ;
+    char A;
+    printf("N= ");
+    scanf("%d", &N);
+    
+    printf("Enter your character: ");
+    scanf("%c", &A);
+    scanf("%c", &A);    
+    
+    printf("Result: ");
+    
+    for(int i=0; i<N; i++){
+        
+        printf("%c", A);
+    }
+    printf("\n\n\n");
 
     return 0;
- }
+}
