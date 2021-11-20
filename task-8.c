@@ -12,7 +12,7 @@ int main()
     
     printf("Enter your character: ");
     scanf("%c", &A);
-    scanf("%c", &A);    
+    scanf("%c", &A);
     
     printf("Result: ");
     
